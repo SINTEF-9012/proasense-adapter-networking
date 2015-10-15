@@ -23,12 +23,12 @@ import net.modelbased.proasense.adapter.base.AbstractBaseAdapter;
 import org.apache.log4j.Logger;
 
 public class AbstractNetworkingAdapter extends AbstractBaseAdapter {
-    public final static Logger logger = Logger.getLogger(AbstractFileAdapter.class);
+    public final static Logger logger = Logger.getLogger(AbstractNetworkingAdapter.class);
 
-    protected FileConsumerInput inputPort;
+    protected NetworkingConsumerInput inputPort;
 
 
-    protected AbstractFileAdapter() {
+    protected AbstractNetworkingAdapter() {
 
     }
 }
